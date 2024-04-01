@@ -1,27 +1,19 @@
-import React, { useEffect, useState } from "react";
-import { useTheme } from "next-themes";
-
-const ServiceCard = ({ name, description }) => {
-  const { theme } = useTheme();
-  const [mounted, setMounted] = useState();
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+import React from 'react';
+import projectData from '../data.json'; 
+const ProjectList = () => {
   return (
-    <div
-      className={`w-full p-2 mob:p-4 rounded-lg transition-all ease-out duration-300 ${
-        mounted && theme === "dark" ? "hover:bg-slate-800" : "hover:bg-slate-50"
-      } hover:scale-105 link`}
-    >
-      <h1 className="text-3xl">{name ? name : "Heading"}</h1>
-      <p className="mt-5 opacity-40 text-xl">
-        {description
-          ? description
-          : "Test Test Test. "}
-      </p>
+    <div>
+      {projectData.projects.map((project) => (
+        <div key={project.id}>
+          <a href={project.url} target="_blank" rel="noopener noreferrer">
+            <img src={require(`../${project.imageSrc}`).default} alt={project.title} />
+            <h1>{project.title}</h1>
+          </a>
+          <p>Description: {project.description}</p>
+        </div>
+      ))}
     </div>
   );
 };
 
-export default ServiceCard;
+export default ProjectList;

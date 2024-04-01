@@ -10,6 +10,8 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
+import ProjectList from './components/ProjetWebDesign/ProjectList';
+
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -111,7 +113,11 @@ export default function Home() {
                 description={project.description}
                 onClick={() => window.open(project.url)}
               />
+
+
             ))}
+            <ProjectList />
+
           </div>
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
