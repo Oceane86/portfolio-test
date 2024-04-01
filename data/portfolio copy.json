@@ -27,14 +27,14 @@
       "title": "Project One Test",
       "description": "Web Design",
       "imageSrc": "./app/assets/yaspeez-Mockup.webp",
-      "url": "../components/ServiceCard"
+      "url": ""
     },
     {
       "id": "2",
       "title": "Project Two",
       "description": "Web Development",
       "imageSrc": "./app/assets/calculatrice.png",
-      "url": "/projetWebDesign"
+      "url": ""
     },
     {
       "id": "3",
