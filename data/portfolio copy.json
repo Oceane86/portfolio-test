@@ -27,7 +27,7 @@
       "title": "Project One Test",
       "description": "Web Design",
       "imageSrc": "./app/assets/yaspeez-Mockup.webp",
-      "url": "/projet1"
+      "url": "../components/ServiceCard"
     },
     {
       "id": "2",
