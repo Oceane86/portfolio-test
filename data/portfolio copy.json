@@ -5,7 +5,6 @@
   "headerTaglineThree": "intégratrice et développeur web",
   "headerTaglineFour": "",
   "showBlog": true,
-  "showProjet": true,
   "darkMode": true,
   "socials": [
     {
@@ -28,7 +27,7 @@
       "title": "Project One Test",
       "description": "Web Design",
       "imageSrc": "./app/assets/yaspeez-Mockup.webp",
-      "url": "/projet1"
+      "url": "/projet"
     },
     {
       "id": "2",
