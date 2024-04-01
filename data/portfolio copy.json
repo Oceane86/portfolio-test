@@ -26,14 +26,14 @@
       "id": "1",
       "title": "Project One Test",
       "description": "Web Design",
-      "imageSrc": "/react-portfolio-template/app/assets/yaspeez-Mockup.webp",
-      "url": "http://chetanverma.com/"
+      "imageSrc": "./app/assets/yaspeez-Mockup.webp",
+      "url": "/react-portfolio-template/app/routes/projects.slice"
     },
     {
       "id": "2",
       "title": "Project Two",
       "description": "Web Development",
-      "imageSrc": "/react-portfolio-template/app/assets/calculatrice.png",
+      "imageSrc": "./app/assets/calculatrice.png",
       "url": "http://chetanverma.com/"
     },
     {
