@@ -10,7 +10,6 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
-import ProjectList from './components/ProjetWebDesign/ProjectList';
 
 
 // Local Data
