@@ -11,7 +11,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  const { name, showBlog, showResume } = data;
+  const { name, showBlog, showResume, showProjet } = data;
 
   useEffect(() => {
     setMounted(true);
@@ -69,7 +69,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             >
               {!isBlog ? (
                 <div className="grid grid-cols-1">
-                  <Button onClick={handleWorkScroll}>Projets</Button>
+
+                  {showProjet && (
+                    <Button onClick={() => router.push("/projet")}>Projets</Button>
+                  )}
+                  {/* <Button onClick={handleWorkScroll}>Projets</Button> */}
                   <Button onClick={handleAboutScroll}>A propos</Button>
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
@@ -131,7 +135,10 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         </h1>
         {!isBlog ? (
           <div className="flex">
-            <Button onClick={handleWorkScroll}>Projets</Button>
+            {showProjet && (
+              <Button onClick={() => router.push("/projet")}>Projets</Button>
+            )}
+
             <Button onClick={handleAboutScroll}>A propos</Button>
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>

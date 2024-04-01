@@ -27,7 +27,7 @@
       "title": "Project One Test",
       "description": "Web Design",
       "imageSrc": "./app/assets/yaspeez-Mockup.webp",
-      "url": "/react-portfolio-template/app/routes/projects.slice"
+      "url": "/projet"
     },
     {
       "id": "2",
