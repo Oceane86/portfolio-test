@@ -106,7 +106,7 @@ export default function Home() {
           <h1 className="text-2xl text-bold">Projets.</h1>
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.projects.map((project) => (
-              <ProjectList
+              <WorkCard
                 key={project.id}
                 img={project.imageSrc}
                 name={project.title}
