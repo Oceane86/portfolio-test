@@ -5,6 +5,7 @@
   "headerTaglineThree": "intégratrice et développeur web",
   "headerTaglineFour": "",
   "showBlog": true,
+  "showProjet": true,
   "darkMode": true,
   "socials": [
     {
@@ -34,7 +35,7 @@
       "title": "Project Two",
       "description": "Web Development",
       "imageSrc": "./app/assets/calculatrice.png",
-      "url": "/projects.slice"
+      "url": "/projetWebDesign"
     },
     {
       "id": "3",
