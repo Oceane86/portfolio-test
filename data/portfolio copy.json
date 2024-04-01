@@ -34,7 +34,7 @@
       "title": "Project Two",
       "description": "Web Development",
       "imageSrc": "./app/assets/calculatrice.png",
-      "url": "/react-portfolio-template/app/routes/projects.slice"
+      "url": "/projects.slice"
     },
     {
       "id": "3",
