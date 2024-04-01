@@ -69,23 +69,23 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             >
               {!isBlog ? (
                 <div className="grid grid-cols-1">
-                  <Button onClick={handleWorkScroll}>Work</Button>
-                  <Button onClick={handleAboutScroll}>About</Button>
+                  <Button onClick={handleWorkScroll}>Projets</Button>
+                  <Button onClick={handleAboutScroll}>A propos</Button>
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
                   {showResume && (
                     <Button
                       onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
+                        window.open("mailto:oce.rakotomalala@laposte.net")
                       }
                     >
-                      Resume
+                    Expériences
                     </Button>
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:oce.rakotomalala@laposte.net")}
                   >
                     Contact
                   </Button>
@@ -103,12 +103,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       onClick={() => router.push("/resume")}
                       classes="first:ml-1"
                     >
-                      Resume
+                      Expériences
                     </Button>
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:oce.rakotomalala@laposte.net")}
                   >
                     Contact
                   </Button>
@@ -131,8 +131,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         </h1>
         {!isBlog ? (
           <div className="flex">
-            <Button onClick={handleWorkScroll}>Work</Button>
-            <Button onClick={handleAboutScroll}>About</Button>
+            <Button onClick={handleWorkScroll}>Projets</Button>
+            <Button onClick={handleAboutScroll}>A propos</Button>
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
@@ -141,11 +141,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
-                Resume
+                Expériences
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open("mailto:oce.rakotomalala@laposte.net")}>
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
@@ -170,11 +170,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
-                Resume
+                Expériences
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open("mailto:oce.rakotomalala@laposte.net")}>
               Contact
             </Button>
 
