@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button";
 
 const WorkCard = ({ img, name, description, onClick }) => {
   return (
@@ -22,6 +23,8 @@ const WorkCard = ({ img, name, description, onClick }) => {
       <h2 className="text-xl opacity-50">
         {description ? description : "Description"}
       </h2>
+
+      <Button type="primary">Voir le projet</Button>
       <button onClick={onClick} className="mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">
         Voir le projet
       </button>
