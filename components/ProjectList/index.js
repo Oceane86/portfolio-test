@@ -14,6 +14,8 @@ const ProjectList = () => {
               img={require(`../${project.imageSrc}`).default}
               name={project.title}
               description={project.description}
+              onClick={() => window.open(project.url, '_blank')}
+
             />
           </Link>
         ))}
