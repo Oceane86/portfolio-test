@@ -22,6 +22,9 @@ const WorkCard = ({ img, name, description, onClick }) => {
       <h2 className="text-xl opacity-50">
         {description ? description : "Description"}
       </h2>
+      <button onClick={onClick} className="mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">
+        Voir le projet
+      </button>
     </div>
   );
 };
