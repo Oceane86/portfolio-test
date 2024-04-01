@@ -34,7 +34,7 @@
       "title": "Project Two",
       "description": "Web Development",
       "imageSrc": "./app/assets/calculatrice.png",
-      "url": "http://chetanverma.com/"
+      "url": "/react-portfolio-template/app/routes/projects.slice"
     },
     {
       "id": "3",
